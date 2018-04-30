@@ -1,0 +1,105 @@
+/*
+Theme Name: Child Theme
+Description: This is a child theme of 2015 for the asigned task of fullstack developer
+Author: Steveen Marín
+Template: twentyfifteen
+Version: 0.0.1
+*/
+
+@import url('../twentyfifteen/style.css');
+
+.cta_left{
+	width: 25%;
+	height: 140px;
+	border: 1px black solid;
+	float: left;
+	background: url('images/background.png');
+}
+.cta_center{
+	float: left;
+	width: 50%;
+	height:140px;
+	border: 1px black solid;
+	background: black;
+}
+.cta_right{
+	float: right;
+	width: 25%;
+	height: 140px;
+	border: 1px black solid;
+	background: #1A1A1A;
+}
+
+.countdown_container{
+	margin: 2%;
+}
+.cta_countdown{
+	background: red;
+	color: white;
+	width: 15%;
+	height: 15%;
+	text-align: center;
+	float: left;
+	margin: 1px;
+	min-width: 30px;
+	overflow: hidden;
+	word-wrap: normal;
+}
+
+.cta_countdown_text{
+	font-size: 0.8em;
+	word-break: keep-all;
+}
+
+.cta_countdown_number{
+	font-size: 1.2em;
+	margin-top: -10px;
+}
+
+.cta_left_countdown_text{
+	font-size: 0.5em;
+	margin: 2% 2%;
+	color: white;
+	float: left;
+	width: 75px
+}
+
+.cta_title{
+	color: orange;
+	font-size: 1em;
+}
+
+.cta_subtitle{
+	color:white;
+	font-size: 0.7em;
+}
+
+.cta_lower_center{
+	float: left;
+}
+
+.cta_button{
+	background: orange;
+	color: #2D1D04;
+	border-radius: 4px;
+	font-size: 0.7em;
+    box-shadow: 0px 2px #8A540C;
+
+}
+
+.cta_button:hover{
+	background: red;
+	color: white;
+	box-shadow: 0px 2px darkred;
+}
+
+button.cta_button{
+	margin:25px 10px 10px;
+}
+
+.cta_underbutton_text{
+	text-align: center;
+	color: white;
+	font-size: 0.7em;
+	word-break: normal;
+}
